@@ -1,12 +1,12 @@
 #
 # Conditional build:
-%bcond_without	tests		# build without tests
+%bcond_with	tests		# build without tests
 
 %define	gem_name	fakeweb
 Summary:	A tool for faking responses to HTTP requests
 Name:		ruby-%{gem_name}
 Version:	1.3.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/gems/%{gem_name}-%{version}.gem
